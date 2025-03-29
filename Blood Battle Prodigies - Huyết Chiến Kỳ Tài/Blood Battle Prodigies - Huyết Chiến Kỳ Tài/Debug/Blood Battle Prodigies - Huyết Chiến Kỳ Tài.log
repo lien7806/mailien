@@ -1,0 +1,11 @@
+﻿  game.cpp
+  GameObject.cpp
+  main.cpp
+  map.cpp
+D:\PROJECT GAME\Blood Battle Prodigies - Huyết Chiến Kỳ Tài\Blood Battle Prodigies - Huyết Chiến Kỳ Tài\CODE\map.cpp(26,22): warning C4566: character represented by universal-character-name '\u1ED7' cannot be represented in the current code page (1252)
+D:\PROJECT GAME\Blood Battle Prodigies - Huyết Chiến Kỳ Tài\Blood Battle Prodigies - Huyết Chiến Kỳ Tài\CODE\map.cpp(34,22): warning C4566: character represented by universal-character-name '\u1ED7' cannot be represented in the current code page (1252)
+D:\PROJECT GAME\Blood Battle Prodigies - Huyết Chiến Kỳ Tài\Blood Battle Prodigies - Huyết Chiến Kỳ Tài\CODE\map.cpp(34,22): warning C4566: character represented by universal-character-name '\u1EA1' cannot be represented in the current code page (1252)
+D:\PROJECT GAME\Blood Battle Prodigies - Huyết Chiến Kỳ Tài\Blood Battle Prodigies - Huyết Chiến Kỳ Tài\CODE\map.cpp(34,22): warning C4566: character represented by universal-character-name '\u1EEB' cannot be represented in the current code page (1252)
+  TextureManager.cpp
+  Generating Code...
+  Blood Battle Prodigies - Huyết Chiến Kỳ Tài.vcxproj -> D:\PROJECT GAME\Blood Battle Prodigies - Huyết Chiến Kỳ Tài\Debug\Blood Battle Prodigies - Huyết Chiến Kỳ Tài.exe
