@@ -30,3 +30,4 @@ void GameObject::Update() {
 void GameObject::Render() {
     SDL_RenderCopy(Game::GetRenderer(), objTexture, &scrRect, &destRect);
 }
+

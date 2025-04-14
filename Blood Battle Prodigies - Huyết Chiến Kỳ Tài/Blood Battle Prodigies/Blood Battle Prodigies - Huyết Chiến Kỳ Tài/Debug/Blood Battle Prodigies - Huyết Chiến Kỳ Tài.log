@@ -1,9 +1,47 @@
-﻿  Collision.cpp
+﻿  ActionComponent.cpp
+D:\PROJECT GAME\Blood Battle Prodigies\Blood Battle Prodigies - Huyết Chiến Kỳ Tài\CODE\ECS\TransformComponent.h(60,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'CODE/ECS/ActionComponent.cpp')
+  
+D:\PROJECT GAME\Blood Battle Prodigies\Blood Battle Prodigies - Huyết Chiến Kỳ Tài\CODE\ECS\TransformComponent.h(72,31): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'CODE/ECS/ActionComponent.cpp')
+  
+D:\PROJECT GAME\Blood Battle Prodigies\Blood Battle Prodigies - Huyết Chiến Kỳ Tài\CODE\ECS\SpriteComponent.h(58,27): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'CODE/ECS/ActionComponent.cpp')
+  
+D:\PROJECT GAME\Blood Battle Prodigies\Blood Battle Prodigies - Huyết Chiến Kỳ Tài\CODE\ECS\SpriteComponent.h(59,27): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'CODE/ECS/ActionComponent.cpp')
+  
+D:\PROJECT GAME\Blood Battle Prodigies\Blood Battle Prodigies - Huyết Chiến Kỳ Tài\CODE\ECS\SpriteComponent.h(69,39): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'CODE/ECS/ActionComponent.cpp')
+  
+D:\PROJECT GAME\Blood Battle Prodigies\Blood Battle Prodigies - Huyết Chiến Kỳ Tài\CODE\ECS\SpriteComponent.h(70,40): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'CODE/ECS/ActionComponent.cpp')
+  
+D:\PROJECT GAME\Blood Battle Prodigies\Blood Battle Prodigies - Huyết Chiến Kỳ Tài\CODE\ECS\ColliderComponent.h(30,39): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'CODE/ECS/ActionComponent.cpp')
+  
+D:\PROJECT GAME\Blood Battle Prodigies\Blood Battle Prodigies - Huyết Chiến Kỳ Tài\CODE\ECS\ColliderComponent.h(31,40): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'CODE/ECS/ActionComponent.cpp')
+  
+D:\PROJECT GAME\Blood Battle Prodigies\Blood Battle Prodigies - Huyết Chiến Kỳ Tài\CODE\ECS\ActionComponent.cpp(161,30): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\PROJECT GAME\Blood Battle Prodigies\Blood Battle Prodigies - Huyết Chiến Kỳ Tài\CODE\ECS\ActionComponent.cpp(162,30): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
   game.cpp
-D:\PROJECT GAME\Blood Battle Prodigies\Blood Battle Prodigies - Huyết Chiến Kỳ Tài\CODE\ECS\SpriteComponent.h(42,27): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\PROJECT GAME\Blood Battle Prodigies\Blood Battle Prodigies - Huyết Chiến Kỳ Tài\CODE\ECS\TransformComponent.h(60,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'CODE/game.cpp')
   
-D:\PROJECT GAME\Blood Battle Prodigies\Blood Battle Prodigies - Huyết Chiến Kỳ Tài\CODE\ECS\SpriteComponent.h(43,27): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\PROJECT GAME\Blood Battle Prodigies\Blood Battle Prodigies - Huyết Chiến Kỳ Tài\CODE\ECS\TransformComponent.h(72,31): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'CODE/game.cpp')
+  
+D:\PROJECT GAME\Blood Battle Prodigies\Blood Battle Prodigies - Huyết Chiến Kỳ Tài\CODE\ECS\SpriteComponent.h(58,27): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'CODE/game.cpp')
+  
+D:\PROJECT GAME\Blood Battle Prodigies\Blood Battle Prodigies - Huyết Chiến Kỳ Tài\CODE\ECS\SpriteComponent.h(59,27): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'CODE/game.cpp')
+  
+D:\PROJECT GAME\Blood Battle Prodigies\Blood Battle Prodigies - Huyết Chiến Kỳ Tài\CODE\ECS\SpriteComponent.h(69,39): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'CODE/game.cpp')
+  
+D:\PROJECT GAME\Blood Battle Prodigies\Blood Battle Prodigies - Huyết Chiến Kỳ Tài\CODE\ECS\SpriteComponent.h(70,40): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
   (compiling source file 'CODE/game.cpp')
   
 D:\PROJECT GAME\Blood Battle Prodigies\Blood Battle Prodigies - Huyết Chiến Kỳ Tài\CODE\ECS\ColliderComponent.h(30,39): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
@@ -20,21 +58,12 @@ D:\PROJECT GAME\Blood Battle Prodigies\Blood Battle Prodigies - Huyết Chiến 
   (compiling source file 'CODE/game.cpp')
       D:\PROJECT GAME\Blood Battle Prodigies\Blood Battle Prodigies - Huyết Chiến Kỳ Tài\CODE\ECS\ECS.h(64,34):
       the template instantiation context (the oldest one first) is
-          D:\PROJECT GAME\Blood Battle Prodigies\Blood Battle Prodigies - Huyết Chiến Kỳ Tài\CODE\game.cpp(74,14):
+          D:\PROJECT GAME\Blood Battle Prodigies\Blood Battle Prodigies - Huyết Chiến Kỳ Tài\CODE\game.cpp(76,13):
           see reference to function template instantiation 'T &Entity::addComponent<TransformComponent,float,float,int,int,double>(float &&,float &&,int &&,int &&,double &&)' being compiled
           with
           [
               T=TransformComponent
           ]
   
-  GameObject.cpp
-  main.cpp
-  map.cpp
-D:\PROJECT GAME\Blood Battle Prodigies\Blood Battle Prodigies - Huyết Chiến Kỳ Tài\CODE\map.cpp(26,22): warning C4566: character represented by universal-character-name '\u1ED7' cannot be represented in the current code page (1252)
-D:\PROJECT GAME\Blood Battle Prodigies\Blood Battle Prodigies - Huyết Chiến Kỳ Tài\CODE\map.cpp(34,22): warning C4566: character represented by universal-character-name '\u1ED7' cannot be represented in the current code page (1252)
-D:\PROJECT GAME\Blood Battle Prodigies\Blood Battle Prodigies - Huyết Chiến Kỳ Tài\CODE\map.cpp(34,22): warning C4566: character represented by universal-character-name '\u1EA1' cannot be represented in the current code page (1252)
-D:\PROJECT GAME\Blood Battle Prodigies\Blood Battle Prodigies - Huyết Chiến Kỳ Tài\CODE\map.cpp(34,22): warning C4566: character represented by universal-character-name '\u1EEB' cannot be represented in the current code page (1252)
-  TextureManager.cpp
-  vector2D.cpp
   Generating Code...
   Blood Battle Prodigies - Huyết Chiến Kỳ Tài.vcxproj -> D:\PROJECT GAME\Blood Battle Prodigies\Debug\Blood Battle Prodigies - Huyết Chiến Kỳ Tài.exe

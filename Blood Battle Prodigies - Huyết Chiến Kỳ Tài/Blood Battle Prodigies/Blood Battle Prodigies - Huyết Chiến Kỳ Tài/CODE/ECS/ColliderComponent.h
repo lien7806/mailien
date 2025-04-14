@@ -3,7 +3,7 @@
 #include "Components.h"
 #include "SDL.h"
 #include "TransformComponent.h"
-#include "game.h"    
+#include "../game.h"    
 #include <string>
 
 class ColliderComponent : public Component {

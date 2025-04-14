@@ -1,11 +1,12 @@
-﻿// cách di chuyển của goku
+﻿// cách di chuyển của Chiaotzu
 
 #pragma once
+
 #include "ECS.h"
 #include "Components.h"
 #include "../game.h"
 
-class GokuController : public Component {
+class ChiaotzuController : public Component {
 public:
     TransformComponent* transform;
 
@@ -21,18 +22,21 @@ public:
 
         const Uint8* keystate = SDL_GetKeyboardState(NULL);
 
-        if (keystate[SDL_SCANCODE_W] && transform->scope) {
+        if (keystate[SDL_SCANCODE_UP] && transform->scope) {
 
-            transform->velocity.y = -60; // nhảy cao tầm
+            transform->velocity.y = -60; // nhảy cao tầm 
 
             transform->scope = false;
         }
-        if (keystate[SDL_SCANCODE_A]) {
+        if (keystate[SDL_SCANCODE_DOWN]) {
+            transform->velocity.y = 1;
+        }
+        if (keystate[SDL_SCANCODE_LEFT]) {
             transform->velocity.x = -1;
         }
-        if (keystate[SDL_SCANCODE_D]) {
+        if (keystate[SDL_SCANCODE_RIGHT]) {
             transform->velocity.x = 1;
+
         }
     }
 };
-

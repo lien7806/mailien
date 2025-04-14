@@ -11,9 +11,10 @@ public:
     vector2D position;
     vector2D velocity;
 
-    int height = 32;
-    int width = 32;
+    int width = 41;
+    int height = 60;
     double scale = 1.0;
+    bool scope = false;
 
 
     int speed = 3;
@@ -29,11 +30,11 @@ public:
         scale = sc;
 
     }
-    TransformComponent(float x, float y) {
+    /*TransformComponent(float x, float y) {
         position.x = x;
         position.y = y;
 
-    }
+    }*/
 
     TransformComponent(float x, float y, int h, int w, int sc) {
         position.x = x;
@@ -41,6 +42,7 @@ public:
         height = h;
         width = w;
         scale = sc;
+        scope = false;
 
 
     }
@@ -53,10 +55,24 @@ public:
     void update() override {
         position.x += velocity.x * speed;
         position.y += velocity.y * speed;
+
+        if (position.y + height * scale >= 560) {
+            position.y = 560 - height * scale;
+            velocity.y = 0;
+            scope = true;
+        }
+        /*else {
+            velocity.y += 0.5;
+            scope = false;
+        }*/
+        if (position.x < 0) {
+            position.x = 0;
+        }
+        if (position.x + width * scale > 1200) {
+            position.x = 1200 - width * scale;
+        }
+
     }
 
 
 };
-
-
-

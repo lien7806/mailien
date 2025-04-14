@@ -135,6 +135,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CODE\Collision.cpp" />
+    <ClCompile Include="CODE\ECS\ActionComponent.cpp" />
     <ClCompile Include="CODE\game.cpp" />
     <ClCompile Include="CODE\GameObject.cpp" />
     <ClCompile Include="CODE\main.cpp" />
@@ -143,11 +144,15 @@
     <ClCompile Include="CODE\vector2D.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CODE\Const.h" />
+    <ClInclude Include="CODE\ECS\ActionComponent.h" />
     <ClInclude Include="CODE\ECS\GokuController.h" />
     <ClInclude Include="CODE\ECS\ColliderComponent.h" />
     <ClInclude Include="CODE\ECS\Components.h" />
     <ClInclude Include="CODE\ECS\ECS.h" />
-    <ClInclude Include="CODE\ECS\GeneralBlueController.h" />
+    <ClInclude Include="CODE\ECS\ChiaotzuController.h" />
+    <ClInclude Include="CODE\ECS\gravity.h" />
+    <ClInclude Include="CODE\ECS\HPComponent.h" />
     <ClInclude Include="CODE\ECS\TransformComponent.h" />
     <ClInclude Include="CODE\ECS\SpriteComponent.h" />
     <ClInclude Include="CODE\game.h" />

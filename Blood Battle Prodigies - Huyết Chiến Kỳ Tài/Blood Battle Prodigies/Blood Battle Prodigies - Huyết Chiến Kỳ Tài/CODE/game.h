@@ -51,3 +51,4 @@ private:
     void renderCountdown();
     void renderRunning();
 };
+
