@@ -4,14 +4,11 @@
 GameObject::~GameObject() {
     SDL_DestroyTexture(objTexture);
 }
-
-
 GameObject::GameObject(const char* texturesheet, int x, int y) {
     objTexture = TextureManager::LoadTexture(texturesheet);
     xpos = x;
     ypos = y;
 }
-
 void GameObject::Update() {
     xpos++;
     ypos++;
@@ -26,7 +23,6 @@ void GameObject::Update() {
     destRect.w = scrRect.w;
     destRect.h = scrRect.h;
 }
-
 void GameObject::Render() {
     SDL_RenderCopy(Game::GetRenderer(), objTexture, &scrRect, &destRect);
 }
